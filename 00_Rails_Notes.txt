@@ -27,6 +27,62 @@ Loops
 
 Rails App Framework
 	Now we're going over the file structure of rails
+	This is what the directory structure looks like:
+	
 	root/
 		app/ # this is where the main directory where most of our code lives
+			controllers/ # contains all controller classes
+			 			 # handles all http requests from browser
+						 # will use data from model and view to display it to the user
+
+			helpers/ # help controller and keep it uncluttered
+					 # random functions and methods
+
+			models/ # database
+					# holds database classes
+
+			views/ # presentation files (html) that will be shown to the user
+				   layouts/ # template files for layouts (headers, footers, 	
+
+		components/ # small self contained apps that will bundle the model, view, and controller
+
+		config/ # config files
+				# contains routes.rb files -> used for changing homepage, for example
+
+		db/ # contains database migrations (?)
+
+		doc/ # for documentation (uses rubydoc)
+
+		lib/ # contains libraries and library classes
+
+		log/ # to store logs
+
+		public/ # public files available to the web, for example js files, css, images, static html etc.
+
+		scripts/ # contains scripts (?)
+
+		test/ # mocks, unit testing, etc.
+
+		tmp/ # contains temporary files used for intermediate processing
+
+		vendors/ # third party libraries
+
+		README (file) # basic details about a rails application
+		rakefile (file) # similiar to unix make file, helps with building, packaging, testing
+				 (need to review make files)
+
+		
+		
+Talking about heroku
+	basically acts like a web server
+
+He says the hardest part of any rails app is just the setup which has been done
+   next parts will be the main part
+
+Time to learn MVC
+	 MVC is really CMV because the controller usually comes first
+	 
+
+<remove> For resume can look at other resumes for those keywords! </remove>
+		
 		
