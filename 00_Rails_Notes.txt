@@ -1,0 +1,32 @@
+RUBY ON RAILS NOTES
+
+Arrays are as simple as declaring
+	   mynumbers = [4 ,5, 6, 3, 23, 1]
+
+Hashes
+	user = {
+			'first_name' => 'john',
+		   	'last_name' => 'smith'
+			}
+
+	Some Hash Methods:
+		 user.sort
+		 user.sort
+
+	Can Create Arrays Of Hashes
+
+Loops
+	5.times {}		 # executes everything inside curly braces 5 times
+	4.upto(9) {}	 # executes everything inside curly braces 5 times
+	7.downto(2) {}   # executes everything inside curly braces 5 times
+
+	While Loops (self explanatory)
+	For/Each Loops
+		planets = ['Earth', 'Mars', 'Jupiter']
+		planets.each{|x| puts x} # will print out each value in the array
+
+Rails App Framework
+	Now we're going over the file structure of rails
+	root/
+		app/ # this is where the main directory where most of our code lives
+		

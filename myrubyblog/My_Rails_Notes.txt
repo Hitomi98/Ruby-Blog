@@ -1,0 +1,16 @@
+-- Notes -- 
+[https://www.youtube.com/playlist?list=PLDmvslp_VR0xlwr5lAx2PDsZLu7oIOhpX]
+
+- Chapter 4 - 
+some commands:
+	$ rails new 'name of application'
+	# creates an application
+
+	$ rails server
+	# launches the webapp with a default address of localhost:3000
+
+- Chapter 5 -
+1. Created a new controller and view
+
+- Chapter 6 -
+1. Using git  
