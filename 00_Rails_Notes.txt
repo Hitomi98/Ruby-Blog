@@ -82,6 +82,41 @@ He says the hardest part of any rails app is just the setup which has been done
 Time to learn MVC
 	 MVC is really CMV because the controller usually comes first
 	 
+	In rails every controller has a model
+	 	controllers are always named pluraly ("posts")
+		(the corresponding) models are named singularly ("posts")
+	
+	We just created a controller named "posts"
+
+	Next we will learn about actions
+		actions are just methods (def)
+		there are 7 types of actions
+			index action - basically the "root" action
+			edit
+			show
+			new
+			create
+			destroy
+
+		Now we must create a view
+			the "posts" folder was already created for us in app/views
+			inside this "posts" folder is where the html/css/whatever pages go
+				for the view (which is what the user sees)
+
+		Now we need to create a route (?) for our post controller
+			we went in an edited the config/routes.rb file
+
+		used the "rake routes" command
+
+
+
+
+
+
+
+
+
+
 
 <remove> For resume can look at other resumes for those keywords! </remove>
 		
