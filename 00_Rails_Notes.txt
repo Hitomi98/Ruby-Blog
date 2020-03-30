@@ -1,5 +1,6 @@
 RUBY ON RAILS NOTES
 
+--------------------------------------------------------------------------------
 CHAPTER 14:
 	Arrays are as simple as declaring
 		   mynumbers = [4 ,5, 6, 3, 23, 1]
@@ -26,6 +27,7 @@ CHAPTER 14:
 			planets = ['Earth', 'Mars', 'Jupiter']
 			planets.each{|x| puts x} # will print out each value in the array
 	
+--------------------------------------------------------------------------------
 CHAPTER 15: Rails App Framework
 	Now we're going over the file structure of rails
 	This is what the directory structure looks like:
@@ -71,7 +73,7 @@ CHAPTER 15: Rails App Framework
 		README (file) # basic details about a rails application
 		rakefile (file) # similiar to unix make file, helps with building, packaging, testing
 				 (need to review make files)
-
+--------------------------------------------------------------------------------
 CHAPTER 16: 		
 	Talking about heroku
 		basically acts like a web server
@@ -79,7 +81,7 @@ CHAPTER 16:
 	He says the hardest part of any rails app is just the setup which has been done
 	   next parts will be the main part
 	
-
+--------------------------------------------------------------------------------
 CHAPTER 17: Time to learn MVC
 	MVC is really CMV because the controller usually comes first
 	 
@@ -107,6 +109,7 @@ CHAPTER 17: Time to learn MVC
 		Now we need to create a route (?) for our post controller
 			we went in an edited the config/routes.rb file
 
+--------------------------------------------------------------------------------
 CHAPTER 18:
 	used the "rake routes" command
 	
@@ -128,9 +131,12 @@ CHAPTER 18:
 	
 	We also learned how to dynamically change the text
 	
+--------------------------------------------------------------------------------
 CHAPTER 19:
+	When creating the database, it looks like ruby can create the database for you?
 
 
+--------------------------------------------------------------------------------
 <remove> For resume can look at other resumes for those keywords! </remove>
 		
 		
