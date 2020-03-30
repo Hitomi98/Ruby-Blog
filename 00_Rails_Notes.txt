@@ -1,31 +1,32 @@
 RUBY ON RAILS NOTES
 
-Arrays are as simple as declaring
-	   mynumbers = [4 ,5, 6, 3, 23, 1]
-
-Hashes
-	user = {
-			'first_name' => 'john',
-		   	'last_name' => 'smith'
-			}
-
-	Some Hash Methods:
-		 user.sort
-		 user.sort
-
-	Can Create Arrays Of Hashes
-
-Loops
-	5.times {}		 # executes everything inside curly braces 5 times
-	4.upto(9) {}	 # executes everything inside curly braces 5 times
-	7.downto(2) {}   # executes everything inside curly braces 5 times
-
-	While Loops (self explanatory)
-	For/Each Loops
-		planets = ['Earth', 'Mars', 'Jupiter']
-		planets.each{|x| puts x} # will print out each value in the array
-
-Rails App Framework
+CHAPTER 14:
+	Arrays are as simple as declaring
+		   mynumbers = [4 ,5, 6, 3, 23, 1]
+	
+	Hashes
+		user = {
+				'first_name' => 'john',
+			   	'last_name' => 'smith'
+				}
+	
+		Some Hash Methods:
+			 user.sort
+			 user.sort
+	
+		Can Create Arrays Of Hashes
+	
+	Loops
+		5.times {}		 # executes everything inside curly braces 5 times
+		4.upto(9) {}	 # executes everything inside curly braces 5 times
+		7.downto(2) {}   # executes everything inside curly braces 5 times
+	
+		While Loops (self explanatory)
+		For/Each Loops
+			planets = ['Earth', 'Mars', 'Jupiter']
+			planets.each{|x| puts x} # will print out each value in the array
+	
+CHAPTER 15: Rails App Framework
 	Now we're going over the file structure of rails
 	This is what the directory structure looks like:
 	
@@ -71,16 +72,16 @@ Rails App Framework
 		rakefile (file) # similiar to unix make file, helps with building, packaging, testing
 				 (need to review make files)
 
-		
-		
-Talking about heroku
-	basically acts like a web server
+CHAPTER 16: 		
+	Talking about heroku
+		basically acts like a web server
+	
+	He says the hardest part of any rails app is just the setup which has been done
+	   next parts will be the main part
+	
 
-He says the hardest part of any rails app is just the setup which has been done
-   next parts will be the main part
-
-Time to learn MVC
-	 MVC is really CMV because the controller usually comes first
+CHAPTER 17: Time to learn MVC
+	MVC is really CMV because the controller usually comes first
 	 
 	In rails every controller has a model
 	 	controllers are always named pluraly ("posts")
@@ -106,16 +107,28 @@ Time to learn MVC
 		Now we need to create a route (?) for our post controller
 			we went in an edited the config/routes.rb file
 
-		used the "rake routes" command
-
-
-
-
-
-
-
-
-
+CHAPTER 18:
+	used the "rake routes" command
+	
+	So now we have created a bunch of views,
+	within each view we have created an .html.erb file
+	the name of the view is "posts"
+		and the name of the new erb files are:
+			edit
+			new
+			show
+		we can go to:
+		   localhost:3000/posts/edit
+		   localhost:3000/posts/show
+		   localhost:3000/posts/new	   
+	
+		from this, the file strucutre becomes clear
+		the posts (which redirects to posts/index.html.erb btw) aka the view comes right after the domain
+		and any html pages with the view come after the
+	
+	We also learned how to dynamically change the text
+	
+CHAPTER 19:
 
 
 <remove> For resume can look at other resumes for those keywords! </remove>
